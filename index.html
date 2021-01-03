@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="João Gabriel Silva Gomes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fale por mim</title>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <h1><img src="./images/logo.svg" alt="Fale por mim" class="logo"></h1>
+
+    <p>Escolha o tipo de voz</p>
+    <select name="voices" id="voices"></select>
+
+    <button class="btn-insert-text">Inserir Texto</button>
+  </div>
+
+  <section class="cards"></section>
+
+  <div class="modal-container">
+    <div class="modal">
+      <p>Digite a sua mensagem</p>
+      <textarea name="my-message" id="my-message"></textarea>
+      <button class="btn-modal-speak">Falar</button>
+      <span class="close-modal">x</span>
+    </div>
+  </div>
+  
+  <script src="./script.js"></script>
+</body>
+</html>
